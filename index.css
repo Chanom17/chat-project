@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+.card {
+    width: 400px;
+    height: 90vh;
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.user {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.group-detail {
+    display: flex;
+    padding: 10px;
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+}
+.group-detail h4 {
+    margin: 0 auto;
+    align-items: center;
+}
+.renderchat {
+    width: 100%;
+    height: calc(100vh - 230px);
+    overflow: scroll;
+    padding-top: 10px;
+}
+.chat-incoming {
+    width: 100%;
+    display: flex;
+    margin-bottom: 10px;
+}
+.chat-incoming span {
+    padding: 5px 20px;
+    border-radius: 10px;
+    margin-left: 10px;
+    max-width: 155px;
+    background-color: #f1f1f1;
+    text-align: center;
+
+}
+.chat-outcoming {
+    width: 100%;
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: flex-end;
+}
+.chat-outcoming span {
+    padding: 5px 20px;
+    border-radius: 10px;
+    margin-right: 10px;
+    max-width: 155px;
+    background-color: #0084ff;
+    color: white;
+    text-align: center;
+}
+.sendmsg {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+}
+.btn-primary {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    background: #0084ff;
+    color: white;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.user-detail {
+    align-items: center;
+    
+}
+.user-detail img {
+    width: 50px; 
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 5px;
+    vertical-align: middle;
+    display: inline-block;
+}
+.user-detail h4 {
+    display: inline;
+    vertical-align: middle;
+    display: inline-block;
+}
+.in-username {
+    font-weight: bold;
+    font-size: 14px;
+    display: block;
+    padding-left: 60px;
+    color: gray;
+    margin-bottom: 1px;
+}
+/* .out-username {
+    font-weight: bold;
+    font-size: 14px;
+    display: block;
+    text-align: right;
+    color: gray;
+    padding-right: 65px;
+    margin-bottom: 5px;
+} */
+.message {
+    display: flex;
+    align-items: center;
+}
